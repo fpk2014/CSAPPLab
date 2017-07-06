@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include "bitXor.h"
 
 int main(int argc, char *argv[])
 {
-    printf("Hello World!\n");
+    test_bitXor();
     return 0;
 }
