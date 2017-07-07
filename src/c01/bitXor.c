@@ -1,13 +1,9 @@
-#ifndef _BITXOR
-#define _BITXOR 1
-#endif
-
 #include "bitXor.h"
 
 /*
  * 只用 & 和 ~ 实现 x^y
- * x^y = (x&!y) | (x&!y)
- * x|y = !(!x & !y)
+ * x^y = (x&~y) | (x&~y)
+ * x|y = ~(~x & ~y)
  *
  */
 
